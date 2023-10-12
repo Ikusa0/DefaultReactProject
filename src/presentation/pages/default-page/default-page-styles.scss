@@ -1,0 +1,30 @@
+@import '../../styles/colors.scss';
+
+.defaultPage {
+  height: 100vh;
+  background-color: $primaryDark;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  span {
+    color: $white;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    width: 20rem;
+    height: 20rem;
+  }
+}
